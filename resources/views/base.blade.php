@@ -17,6 +17,9 @@
 </head>
 <body>
     <header>
+            <div id="entete">
+	            <h1>site-salle-sport</h1>
+            </div>
           <div id="logo-fixe">
          <img class  src="img/fitness-logo-hommefemme.jpg" alt="logo">
          </div>
