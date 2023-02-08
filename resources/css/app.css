@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#entete {
+   margin-left: 400px;
+    }
+
 /* couleur des titres <h2> */
 h2  {
 color: orange;
