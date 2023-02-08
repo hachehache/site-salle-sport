@@ -1,0 +1,29 @@
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*-- Formulaire de Contact --*/
+/* IMPORTATION FONT ROBOTO - FONTS GOOGLE - */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	border:2px;
+	
+}
+
+.images {
+/*les images sont alignées - défilé */
+display: flex;
+width: 900px;
+height: 900px;
+object-fit: cover;
+}  
+#caroussel{
+width: 40px;
+overflow: auto;
+}
+		  
+		  
+

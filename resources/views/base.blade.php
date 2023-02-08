@@ -13,10 +13,14 @@
     @section('vite')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @show
+    <link rel="icon" href="img/logo-sport-baskets-freepik.webp">
 </head>
 <body>
     <header>
-        <h1>Balise H1 - site-salle-sport</h1>
+          <div id="logo-fixe">
+         <img class  src="img/fitness-logo-hommefemme.jpg" alt="logo">
+         </div>
+
         <nav>
             <!-- barre de navigation avec des liens vers chaque page du site -->
             <ul>
@@ -28,11 +32,11 @@
             </ul>
         </nav>
     </header>
-    
+
     @section('content')
     @show
 
-    <footer>
+    <footer class="site-footer">
         <ul>
             <li><a href="{{ route('mentions-legales') }}">Mentionslegales</a></li>
             <li>Copyright site-salle-sport 2023</li>
